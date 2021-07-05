@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+body {
+    background-image: url(img/wal.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+}
+.title {
+    background-color: black;
+    font-size: 50px;
+    color: white;
+    padding-right: 1475px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    padding-left: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    border: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.navbar1 {
+    list-style-type: none;
+    margin-left: 1694px;
+    margin-top: -197px;
+    padding-top: 76px;
+    padding-bottom: 31px;
+    padding-left: 18px;
+    padding-right: 0px;
+    width: 200px;
+    background-color: black;
+}
+  
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+  
+  /* Change the link color on hover */
+li a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.signnavbar {
+    margin-top: -254px;
+    margin-right: 500px;
+    margin-left: 650px;
+    padding-right: 460px;
+    padding-left: 50px;
+    padding-top: 120px;
+    padding-bottom: 49px;
+    background-color: black;
+}
+.title2 {
+    background-color: black;
+    font-size: 50px;
+    color: white;
+    padding-right: 350px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    margin-left: -10px;
+    margin-right: -30px;
+    border: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar2 {
+    list-style-type: none;
+    margin-left: 1158px;
+    margin-top: -198px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    padding-right: -500px;
+    width: 200px;
+    background-color: black;
+}
+.wave {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    text-align: center;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.wave h1 {
+    font-size: 6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0;
+}
+.wave p {
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 5rem 0 5rem;
+}
+.wave svg {
+    display: block;    
+}
+.wave.up {
+    background: #fff;
+}
+.tonguç , .nitelik, .sonuç, .supara, .palme, .gezegen, .karekök, .arı, .okyanus, .hız, .sınav, .esen {
+    width: 198px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    visibility: initial;
+}
+
+.name {
+    border-radius: 5px;
+    width: 130px;
+    height: 60px;
+    background-color: rgb(115, 25, 218);
+    border-color: rgb(89, 0, 255);
+    margin-left: 590px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.class {
+    border-radius: 5px;
+    width: 130px;
+    height: 60px;
+    background-color: orange;
+    border-color: orangered;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    margin-left: 590px;
+    margin-bottom: 50px;
+}
+.name:hover, .class:hover {
+    background-color: rgb(255, 115, 0);
+}
+.titleimg {
+    position: fixed;
+    left: -20px;
+    top: 5;
+    width: 250px;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 1700px;
+    margin-top: -10px;
+    background-color: black;
+}
+.Inter {
+    position: fixed;
+    font-family: 'Nunito', sans-serif;
+    font-size: 100px;
+    color: white;
+    margin-left: 170px;
+    user-select: none;
+}
+input[type="Checkbox"] {
+    display: none;
+    padding-bottom: 10px;
+    width: 20px;
+}
+label {
+    margin-top: 5px;
+    position: initial;
+    color: #8618e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border: 2px solid #d656d6;
+    border-radius: 5px;
+    padding: 10px 50px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.4s;
+}
+label:before {
+    content: "";
+    height: 30px;
+    width: 30px;
+    border: 3px solid #8529af;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+input[type="Checkbox"]:checked + label {
+    background-color: #8529af;
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+}
+input[type="Checkbox"]:checked + label:before {
+    height: 16px;
+    width: 16px;
+    border: 10px solid white;
+    background-color: #8529af;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#EsenCheckbox:hover {
+    cursor: pointer;
+}
+.name-class2,.name-class3, .name-class4, .name-class5, .name-class6, .name-class7 {
+    margin-top: 50px;
+    width: 250px;
+    padding-left: 2px;
+}
+.name-class3 {
+    margin-left: 255px;
+    margin-top: -260px;
+}
+.name-class4 {
+    margin-left: 510px;
+    margin-top: -260px;
+}
+.name-class5 {
+    margin-left: 1637px;
+    margin-top: -260px;
+}
+.name-class6 {
+    margin-left: 950px;
+    margin-top: -195px;
+}
+.name-class7 {
+    margin-left: 1205px;
+    margin-top: -260px;
+}
+.tonguç, .nitelik, .sonuç, .supara, .palme, .gezegen, .karekök, .arı, .okyanus, .hız, .sınav, .esen {
+    display: none;
+}
+.T-B-9-KA, .T-Ç-9-KA, .T-E-9-KA, .T-F-9-KA, .T-K-9-KA, .T-M-9-KA, .T-T-9-KA, .T-B-9-Dİ, .T-Ç-9-Dİ, .T-E-9-Dİ, .T-F-9-Dİ, .T-K-9-Dİ, .T-M-9-Dİ, .T-T-9-Dİ, .T-TÜM-9-AH-9_1, 
+.T-TÜM-9-AN-9_1, .T-M-9-9_10,.T-B-10-KA, .T-Ç-10-KA, .T-E-10-KA, .T-F-10-KA, .T-K-10-KA, .T-M-10-KA, .T-T-10-KA, .T-B-10-Dİ, .T-Ç-10-Dİ, .T-E-10-Dİ, .T-F-10-Dİ, .T-K-10-Dİ,
+.T-M-10-Dİ, .T-T-10-Dİ, .T-TÜM-10-AH-10_1, .T-TÜM-10-AN-10_1, .T-M-10-10_11,.T-B-11-KA, .T-Ç-11-KA, .T-E-11-KA, .T-F-11-KA, .T-K-11-KA, .T-M-11-KA, .T-T-11-KA, .T-B-11-Dİ, 
+.T-Ç-11-Dİ, .T-E-11-Dİ, .T-F-11-Dİ, .T-K-11-Dİ, .T-M-11-Dİ, .T-T-11-Dİ, .T-TÜM-11-AH-11_1, .T-TÜM-11-AN-11_1, .T-M-11-11_10, .T-M-11-FONK,.T-F-12-HT, .T-TÜM-12-G, .T-P-12-TYT,
+.T-Ç-12-TYT, .T-KR-12-TYT, .T-B-12-TYT, .T-K-12-TYT, .T-F-12-TYT, .T-TYT-12-PROBLEMATİK, .T-TYT-12-PROBLEMATİKS, .T-M-12-İLK, .T-M-12-SON, .T-TYT-12-GRAMATİK, .T-TYT-12-FULL-SYSL,
+.T-TYT-12-FULL-SZL,.T-TÜM-12-NLTK, .T-TÜM-12-PARAGRAFİK, .T-TÜM-12-PARAGRAFİKS, .T-M-12-OLASILIK, .T-M-12-TRİGONOMETRİ, .T-M-12-MATEMATİLK, .T-M-12-PARABOL, .T-E-12-AYT, 
+.T-M-12-POLİNOMLAR, .T-M-12-TYT, .T-G-12-SB, .T-G-12-ÜÇGEN, .T-G-12, .T-TYT-12-FENOMETRE,.T-TYT-12-SOSYOMETRE, .T-TYT-12-TÜRKÇEMETRE, .T-AYT-12-SOSYOMETRE, .T-M-12-AYT, 
+.T-AYT-12-DENEME, .T-M-12-DENEME, .T-TYT-12-DENEME {
+    width: 260px;
+    border: solid black 3px;
+    border-radius: 10px;
+    display: none;
+}
+.page2Button {
+    margin-left: 600px;
+}
+.page1Button {
+    margin-left: 540px;
+}
+.page2Button, .page1Button, .page3Button {
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 70px;
+    border: solid rgb(150, 150, 150) 2px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.page2Button:hover, .page1Button:hover, .page3Button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-color: rgb(0, 0, 0);
+}
+.footer-basic {
+    padding:40px 0;
+    background-color:#353535;
+    color:#ffffff;
+    transition: 0.4s;
+}
+.footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+}
+.footer-basic li {
+    padding:0 10px;
+}
+.footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+} 
+.footer-basic ul a:hover {
+    opacity: 9;
+    color: black;
+    transition: 0.4s;
+} 
+.footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+} 
+.footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+} 
+.footer-basic .social > a:hover {
+    opacity: 10;
+    transition: 0.4s;
+} 
+.footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:rgb(255, 255, 255);
+    margin-bottom:0;
+}
+.instagram {
+    width: 42px;
+    border-radius: 50%;
+    margin-left: -1px;
+    margin-top: -1px;
+}
+.twitter {
+    width: 42px;
+    border-radius: 50%;
+    margin-left: -1px;
+    margin-top: -1px;
+}
+.smallLogo3 {
+    width: 300px;
+    margin-left: 800px;
+}
+.noselect {
+    user-select: none;
+    padding-top: 150px;
+}
+.indigo {
+    margin-left: -9px;
+    margin-top: -4px;
+}
+.trigger {
+    width: 123px;
+    height: 123px;
+    border-radius: 50%;
+    margin-top: 100px;
+    cursor: pointer;
+    margin-left: 900px;
+}
+.ig, .twitter {
+    position: fixed;
+    width: 20px;
+    right: 100px;
+    top: 50px;
+    user-select: none;
+}
+.igimg, .twitterimg {
+    width: 50px;
+    cursor: pointer;
+    user-select: none;
+}
+.twitter {
+    margin-right: 60px;
+}
+.P-B-9-KA,.P-B-9-KA-2, .P-B-9-SK, .P-B-9-SK-2, .P-C-9-KA, .P-E-9-KA, .P-E-9-SK, .P-F-9-KA, .P-F-9-KA, .P-F-9-KA-2, .P-F-9-SK, .P-F-9-SK-2, .P-K-9-KA, .P-K-9-KA-2, .P-K-9-SK, .P-K-9-SK-2, 
+.P-M-9-KA, .P-M-9-KA, .P-M-9-SK, .P-T-9-SK {
+    width: 200px;
+    padding: 30px;
+    background-color: rgb(223, 217, 217);
+    border-radius: 10px;
+    border: solid black 3px;
+    display: none;
+}
+.P-C-9-SK, .P-M-9-KA-2, .P-M-9-SK-2, .P-T-9-KA {
+    height: 250px;
+    width: 205px;
+    padding: 27px;
+    background-color: rgb(223, 217, 217);
+    border-radius: 10px;
+    border: solid black 3px;
+    display: none;
+}
+@media (max-width: 480px) {
+    .titleimg {
+        padding-right: 615px;
+        padding-bottom: 20px;
+        padding-top: 30px;
+        width: 400px;
+    }
+    .Inter {
+        margin-left: 300px;
+        margin-top: 40px;
+        font-size: 120px;
+    }
+    .twitter {
+        margin-right: 250px;
+    }
+    .ig {
+        margin-right: 80px;
+    }
+    .igimg, .twitterimg {
+        width: 150px;
+    }
+    label {
+        width: 210px;
+        height: 150px;
+        font-size: 50px;
+        border-radius: 30px;
+        border: 7px solid #d656d6;
+        display: flex;
+    }
+    .name-class2 {
+        margin-top: 150px;
+    }
+    .label1 {
+        font-size: 49px
+    }
+    .name-class3 {
+        margin-top: -756px;
+        margin-left: 330px;
+    }
+    .label6 {
+        font-size: 41px;
+    }
+    .label7 {
+        font-size: 43px;
+    }
+    .name-class4 {
+        margin-top: -756px;
+        margin-left: 660px;
+    }
+    .label9 {
+        font-size: 42px;
+    }
+    .name-class6 {
+        margin-left: 4px;
+        margin-top: -560px;
+    }
+    .label18, .label19 {
+        font-size: 40px;
+    }
+    .name-class7 {
+        margin-left: 330px;
+        margin-top: -757px;
+    }
+    .label22 {
+        font-size: 35px;
+    }
+    .name-class5 {
+        margin-left: 660px;
+        margin-top: 0px;
+        padding-right: 10px;
+        margin-bottom: -20px;
+    }
+    .trigger {
+        width: 300px;
+        height: 300px;
+        margin-left: 350px;
+    }
+    .indigo {
+        width: 112%;
+        margin-left: -20px
+    }
+    .T-B-9-KA, .T-Ç-9-KA, .T-E-9-KA, .T-F-9-KA, .T-K-9-KA, .T-M-9-KA, .T-T-9-KA, .T-B-9-Dİ, .T-Ç-9-Dİ, .T-E-9-Dİ, .T-F-9-Dİ, .T-K-9-Dİ, .T-M-9-Dİ, .T-T-9-Dİ, .T-TÜM-9-AH-9_1, 
+    .T-TÜM-9-AN-9_1, .T-M-9-9_10,.T-B-10-KA, .T-Ç-10-KA, .T-E-10-KA, .T-F-10-KA, .T-K-10-KA, .T-M-10-KA, .T-T-10-KA, .T-B-10-Dİ, .T-Ç-10-Dİ, .T-E-10-Dİ, .T-F-10-Dİ, .T-K-10-Dİ,
+    .T-M-10-Dİ, .T-T-10-Dİ, .T-TÜM-10-AH-10_1, .T-TÜM-10-AN-10_1, .T-M-10-10_11,.T-B-11-KA, .T-Ç-11-KA, .T-E-11-KA, .T-F-11-KA, .T-K-11-KA, .T-M-11-KA, .T-T-11-KA, .T-B-11-Dİ, 
+    .T-Ç-11-Dİ, .T-E-11-Dİ, .T-F-11-Dİ, .T-K-11-Dİ, .T-M-11-Dİ, .T-T-11-Dİ, .T-TÜM-11-AH-11_1, .T-TÜM-11-AN-11_1, .T-M-11-11_10, .T-M-11-FONK,.T-F-12-HT, .T-TÜM-12-G, .T-P-12-TYT,
+    .T-Ç-12-TYT, .T-KR-12-TYT, .T-B-12-TYT, .T-K-12-TYT, .T-F-12-TYT, .T-TYT-12-PROBLEMATİK, .T-TYT-12-PROBLEMATİKS, .T-M-12-İLK, .T-M-12-SON, .T-TYT-12-GRAMATİK, .T-TYT-12-FULL-SYSL,
+    .T-TYT-12-FULL-SZL,.T-TÜM-12-NLTK, .T-TÜM-12-PARAGRAFİK, .T-TÜM-12-PARAGRAFİKS, .T-M-12-OLASILIK, .T-M-12-TRİGONOMETRİ, .T-M-12-MATEMATİLK, .T-M-12-PARABOL, .T-E-12-AYT, 
+    .T-M-12-POLİNOMLAR, .T-M-12-TYT, .T-G-12-SB, .T-G-12-ÜÇGEN, .T-G-12, .T-TYT-12-FENOMETRE,.T-TYT-12-SOSYOMETRE, .T-TYT-12-TÜRKÇEMETRE, .T-AYT-12-SOSYOMETRE, .T-M-12-AYT, 
+    .T-AYT-12-DENEME, .T-M-12-DENEME, .T-TYT-12-DENEME {
+        width: 600px;
+        border: solid black 10px;
+        border-radius: 30px;
+        display: none;
+        margin-left: 200px;
+    }
+}
+@media (max-width: 1024px) and (min-width: 481px) {
+    .titleimg {
+        padding-right: 1683px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 320px;
+    }
+    .Inter {
+        margin-left: 230px;
+        margin-top: 50px;
+    }
+    .igimg, .twitterimg {
+        width: 120px;
+        margin-top: 25px;
+    }
+    .twitter {
+        margin-right: 200px;
+    }
+    .ig {
+        margin-right: 50px;
+    }
+    label {
+        width: 245px;
+        height: 100px;
+        font-size: 50px;
+        border-radius: 20px;
+        border: 7px solid #d656d6;
+    }
+    .name-class2 {
+        margin-top: 200px;
+    }
+    .name-class3 {
+        margin-top: -557px;
+        margin-left: 365px;
+    }
+    .name-class4 {
+        margin-top: -555px;
+        margin-left: 732px;
+    }
+    .name-class5 {
+        margin-left: 1115px;
+        margin-top: -557px;
+    }
+    .name-class6 {
+        margin-left: 0px;
+        margin-top: 220px;
+    }
+    .name-class7 {
+        margin-left: 365px;
+        margin-top: -555px;
+    }
+    .label22 {
+        font-size: 40px;
+    }
+    .trigger {
+        width: 250px;
+        height: 250px;
+        margin-left: 600px;
+    }
+    .indigo {
+        width: 250px;
+    }
+    .T-B-9-KA, .T-Ç-9-KA, .T-E-9-KA, .T-F-9-KA, .T-K-9-KA, .T-M-9-KA, .T-T-9-KA, .T-B-9-Dİ, .T-Ç-9-Dİ, .T-E-9-Dİ, .T-F-9-Dİ, .T-K-9-Dİ, .T-M-9-Dİ, .T-T-9-Dİ, .T-TÜM-9-AH-9_1, 
+    .T-TÜM-9-AN-9_1, .T-M-9-9_10,.T-B-10-KA, .T-Ç-10-KA, .T-E-10-KA, .T-F-10-KA, .T-K-10-KA, .T-M-10-KA, .T-T-10-KA, .T-B-10-Dİ, .T-Ç-10-Dİ, .T-E-10-Dİ, .T-F-10-Dİ, .T-K-10-Dİ,
+    .T-M-10-Dİ, .T-T-10-Dİ, .T-TÜM-10-AH-10_1, .T-TÜM-10-AN-10_1, .T-M-10-10_11,.T-B-11-KA, .T-Ç-11-KA, .T-E-11-KA, .T-F-11-KA, .T-K-11-KA, .T-M-11-KA, .T-T-11-KA, .T-B-11-Dİ, 
+    .T-Ç-11-Dİ, .T-E-11-Dİ, .T-F-11-Dİ, .T-K-11-Dİ, .T-M-11-Dİ, .T-T-11-Dİ, .T-TÜM-11-AH-11_1, .T-TÜM-11-AN-11_1, .T-M-11-11_10, .T-M-11-FONK,.T-F-12-HT, .T-TÜM-12-G, .T-P-12-TYT,
+    .T-Ç-12-TYT, .T-KR-12-TYT, .T-B-12-TYT, .T-K-12-TYT, .T-F-12-TYT, .T-TYT-12-PROBLEMATİK, .T-TYT-12-PROBLEMATİKS, .T-M-12-İLK, .T-M-12-SON, .T-TYT-12-GRAMATİK, .T-TYT-12-FULL-SYSL,
+    .T-TYT-12-FULL-SZL,.T-TÜM-12-NLTK, .T-TÜM-12-PARAGRAFİK, .T-TÜM-12-PARAGRAFİKS, .T-M-12-OLASILIK, .T-M-12-TRİGONOMETRİ, .T-M-12-MATEMATİLK, .T-M-12-PARABOL, .T-E-12-AYT, 
+    .T-M-12-POLİNOMLAR, .T-M-12-TYT, .T-G-12-SB, .T-G-12-ÜÇGEN, .T-G-12, .T-TYT-12-FENOMETRE,.T-TYT-12-SOSYOMETRE, .T-TYT-12-TÜRKÇEMETRE, .T-AYT-12-SOSYOMETRE, .T-M-12-AYT, 
+    .T-AYT-12-DENEME, .T-M-12-DENEME, .T-TYT-12-DENEME {
+        display: none;
+        width: 550px;
+        margin-left: 450px;
+        border-radius: 20px;
+        border: 7px solid black;
+    }
+}
